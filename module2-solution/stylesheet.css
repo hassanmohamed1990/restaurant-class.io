@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+div.container{
+    width: auto;
+    margin: 20px;
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+div.box1 {
+    margin: 20px;
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
+}
+div.box2 {
+    margin: 20px;
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
+}
+div.box3 {
+    margin: 20px;
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
+}
+
+div.title1 {
+    background-color: lightcoral;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin: 0%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
+div.title2 {
+    background-color: brown;
+    color: white;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin: 0%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
+div.title3 {
+    background-color: tan;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin: 0%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
+
+div.paragraph1 {
+    padding: 10px;
+    margin-top: 45px;
+    font-size: small;
+}
+div.paragraph2 {
+    padding: 10px;
+    margin-top: 45px;
+    font-size: small;
+}
+div.paragraph3 {
+    padding: 10px;
+    margin-top: 45px;
+    font-size: small;
+}
+/* tablet view */
+@media (max-width: 991px) and (min-width: 768px) {
+    div.container{
+        width: auto;
+        margin: 20px;
+        display:grid;
+        grid-template-columns: 400px 400px;
+        justify-content: center;
+        font-weight: bold;
+    }
+    div.box3 {
+        width: 760px;
+        margin: 20px;
+        background-color: grey;
+        border: 2px solid black;
+    }
+}
+/* mobile view */
+@media (max-width: 767px) {
+    div.container {
+        display:block;
+        margin: 20px;
+        justify-content: center;
+        font-weight: bold;
+    }
+}
+
+
+
